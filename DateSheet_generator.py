@@ -2,7 +2,7 @@ import pandas as pd
 import itertools as it
 
 name = input("Enter the name of the file: ")
-def Datesheet_generator(name):
+def datesheet_generator(name):
     print("DATESHEET GENERATOR".center(40, " "))
     d = {}
     subject = []
@@ -29,4 +29,4 @@ def Datesheet_generator(name):
         df = pd.DataFrame(d)
         print(df)
         df.to_csv(f"C:\\Users\\pc\\Desktop\\{name}.csv", index=False)
-Datesheet_generator(name)
+datesheet_generator(name)
