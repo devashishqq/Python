@@ -18,7 +18,7 @@ def datesheet_generator(name):
         classes = input(f"enter class: \t")
         if classes.lower() == "stop":
             break
-
+#new
         subject.append(sub)
         dates.append(date)
         class_list.append(classes)
